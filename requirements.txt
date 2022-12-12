@@ -1,0 +1,37 @@
+# ------------- Basic dependencies -------------
+numpy
+scipy
+pandas
+matplotlib
+statsmodels
+pingouin
+
+# -------------- API + Requests --------------
+requests
+fastapi
+uvicorn
+pydantic
+starlette
+
+# -------------- Data versioning --------------
+dvc
+
+kedro
+gym
+
+
+# -------------- Machine learning --------------
+sklearn
+dgl
+torch
+torchvision
+pytorch-lightning
+transformers
+sentence-transformers
+tensorflow
+tensorflow-datasets
+tensorflow-probability
+keras
+keras-tuner
+keras-vis
+keras-rl
