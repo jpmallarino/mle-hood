@@ -12,14 +12,14 @@
 ## ☑️ Objectives
 
 At the end of this session, you will be able to:
-- [ ] Have the basic tools for the development of ML applications installed: Command Line Tools, Python3.x, Conda, VS Code, Jupyter Notebook.
-- [ ] Understand the benefits of using the above-mentioned tools.
-- [ ] Manage environments with `conda` in terminal. 
-- [ ] Install packages with `conda` or `pip3` in terminal.
-- [ ] Create a GitHub repository for a team project.
-- [ ] Create branches, add work to repo, merge branches.
-- [ ] Familiarize yourself with CLI tools.
-- [ ] Familiarize yourself with pair programming.
+- [x] Have the basic tools for the development of ML applications installed: Command Line Tools, Python3.x, Conda, VS Code, Jupyter Notebook.
+- [x] Understand the benefits of using the above-mentioned tools.
+- [x] Manage environments with `conda` in terminal. 
+- [x] Install packages with `conda` or `pip3` in terminal.
+- [x] Create a GitHub repository for a team project.
+- [x] Create branches, add work to repo, merge branches.
+- [x] Familiarize yourself with CLI tools.
+- [x] Familiarize yourself with pair programming.
 
 
 ## :hammer_and_wrench: Pre-Assignment
@@ -233,9 +233,9 @@ There comes a certain point in every new developers journey where they need to m
 ## Tasks
 
 There are two tasks and one optional practice assignment to refresh the basics of pandas and sklearn for this session. You will find details in each file. To start, clone this repo. 
-1. [Unix-Conda-Pip](nb/unix-conda-pip.ipynb). 
-2. [GitHub](md/git-more.md)
-3. (Optional)[Pandas-Sklearn-Basics](pandas-sklearn-basics/pandas-sklearn-basics.ipynb)
+1. [Unix-Conda-Pip](nb/unix-conda-pip.ipynb). **[DONE]**
+2. [GitHub](md/git-more.md) **[DONE]**
+3. (Optional) [Pandas-Sklearn-Basics](pandas-sklearn-basics/pandas-sklearn-basics.ipynb) **[DONE]**
 
 
 ## How to Submit GitHub Exercise
