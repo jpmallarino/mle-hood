@@ -33,6 +33,17 @@ def echo_view(text_to_translate: SingleText):
         'remote_translated_message' : remote_translation,
     }
 
+@app.post('/echoes')
+def echo_view(texts_to_translate: MultiText):
+    local_translations = translate(*texts_to_translate.input_texts)
+    remote_translations = [translate_api(t)
+                           for t in texts_to_translate.input_texts]
+    return {
+        'messages': texts_to_translate.input_texts,
+        'local_translated_messages' : local_translations,
+        'remote_translated_messages' : remote_translations,
+    }
+
 
 if __name__ == '__main__':
     logger.error('Start app server using main.py')

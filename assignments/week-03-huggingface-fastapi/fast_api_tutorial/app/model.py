@@ -11,8 +11,8 @@ __all__ = ['translate']
 _translator = pipeline('translation_en_to_fr',
                              model='model/trans-1')
 
-def translate(text):
-    return _translator(text)
+def translate(*text):
+    return _translator(list(text))
 
 
 if __name__ == '__main__':
